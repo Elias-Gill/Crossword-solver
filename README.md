@@ -1,6 +1,14 @@
 # Implementacion
 
-Esta es una implementacion en lenguaje C del juego de crucigrama.
+Esta es una implementacion en lenguaje C del juego de crucigrama. Para este problema se cuentan con dos archivos de texto. El primero, el cual contiene el tablero
+del juego, el segundo el cual contendra las palabras con las cuales se debe resolver el crucigrama (el algoritmo lo que hace es ubicar dichas palabras). 
+
+El tablero del crucigrama se representa mediante "*" para casillas ocupadas y "_" para espacios de letras, ademas, la primera linea del archivo de texto cuenta con 
+las dimensiones del tablero "largo" y "ancho".
+
+El segundo archivo de texto contiene las palabras que son solucion del crucigrama, listadas una por linea. El programa no resuelve el crucigrama desde 0, es requerido que
+se proporcionen las palabras que pueden ser solucion del crucigrama.
+
 Ojala a alguien le sirva.
 
 # Funcionamiento
